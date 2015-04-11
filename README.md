@@ -1,2 +1,2 @@
-# mathematical-algorithms
+# algorithms
 Mathematical algorithms
