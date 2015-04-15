@@ -6,7 +6,7 @@
 int* quickSort(int arr[] , int left , int right);
 
 int main(int argc, const char * argv[]) {
-
+    
     int arr[] = {-12 , 20 , 12 , 4 , 21 , 8, -14 ,-10 , -11};
     int i;
     int n = 9;
@@ -38,7 +38,6 @@ int* quickSort(int arr[] , int left , int right){
             j--;
         }
         
-        
         if (i <= j) {
             tmp = arr[i];
             arr[i] = arr[j];
@@ -56,8 +55,6 @@ int* quickSort(int arr[] , int left , int right){
     if (i < right){
         quickSort(arr, i, right);
     }
-    
-    
     
     return arr;
 }
